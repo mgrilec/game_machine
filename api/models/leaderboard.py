@@ -31,3 +31,4 @@ class LeaderboardEntry(models.Model):
     leaderboard = models.OneToOneField(Leaderboard, related_name='entries')
     created_at = models.DateField(auto_now=True)
     deleted_at = models.DateField()
+    
