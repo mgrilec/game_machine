@@ -13,18 +13,12 @@ The self-hosted game backend ready for your indie games.
 
 ### Tech
 
-Build on Django, rest_framework and hard work.
+Built on Django, rest_framework and hard work.
 
 ### Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
 ```
-pip3 install django
-pip3 install rest_framework
-pip3 install corsheaders
+pip3 install -r requirements.txt
 python3 manage.py migrate
 python3 manage.py runserver
 ```
